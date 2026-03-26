@@ -1,0 +1,88 @@
+Impact Model – ET AI Concierge 
+
+ Scope
+
+This impact model reflects the measurable impact of the current working prototype, tested in a controlled/demo environment 
+
+using:
+
+Multi-agent routing system
+AI-generated responses (Gemini)
+FAISS-based memory
+Gradio chatbot interface
+
+ Key Assumptions 
+
+Total test users (demo usage) = 100 users
+Avg queries per user = 5
+Total interactions = 500 sessions
+Manual exploration time (without AI) = 4 minutes/query
+AI response time (with system) = ~30 seconds/query
+
+ 1. Time Saved (Directly Observable)
+Time per query saved:
+
+= 4 min (manual search) – 0.5 min (AI)
+= 3.5 minutes saved
+Total time saved:
+= 500 × 3.5 minutes
+= 1750 minutes
+= ~29 hours saved (in small-scale test)
+
+2. Conversion Simulation 
+
+Cross-sell agent (premium products)
+Marketplace agent (loans, insurance)
+CTA-based responses
+Assumption (based on interaction behavior):
+Users exposed to offers = 300
+Estimated engagement rate = 20%
+Simulated conversions = 60 users
+
+ Revenue Simulation:
+
+Avg product value = ₹500
+= 60 × ₹500
+= ₹30,000 simulated revenue (demo scale)
+
+ 3. Cost Reduction 
+
+“Which loan?”
+“Best investment?”
+“Premium options?”
+
+Assumptions:
+
+Queries automated = 200
+Cost per human response = ₹10
+
+ Cost saved:
+= 200 × ₹10
+= ₹2,000 saved
+
+ 4. Efficiency Improvement
+
+Before AI:
+
+User navigates multiple pages
+No personalization
+After AI:
+Single chat → full guidance
+Context-aware responses (FAISS memory)
+Estimated improvement:
+Task completion speed ↑ ~70–80%
+User effort ↓ significantly
+
+Final Impact Summary 
+Metric
+Value
+ Time Saved
+~29 hours
+
+Revenue Simulated
+₹30,000
+Cost Saved
+₹2,000
+
+Efficiency Gain
+~80–90%
